@@ -6,7 +6,7 @@ import mapMarketImg from '../images/map-marker.svg';
 // ICONS
 import { FiPlus } from 'react-icons/fi';
 // STYLE
-import '../styles/pages/orphanages-map.css';
+import '../styles/pages/orphanages-map.scss';
 // MAP
 import { Map , TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 // Main CSS
-import './styles/global.css';
+import './styles/global.scss';
 
 // Routes
 import Routes from './routes';

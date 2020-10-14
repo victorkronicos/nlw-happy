@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // CSS
-import '../styles/global.css';
-import '../styles/pages/landing.css';
+import '../styles/pages/landing.scss';
 
 // IMAGES
 import logoImg from '../images/logo.svg';
