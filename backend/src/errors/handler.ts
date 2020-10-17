@@ -13,8 +13,6 @@ const errorHandler: ErrorRequestHandler = (error, request, response, next) => {
         return response.status(400).json({message: "Erro na validação do formulário!", errors})
     }
 
-    console.error(error);
-
     return response.status(500).json({message: 'Oops! Ocorreu um erro interno!'});
 };
 
